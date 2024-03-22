@@ -316,6 +316,18 @@
 
 }
 
+.line-1 {
+    width: 166px;
+    height: 8px;
+    background-color: #2C49FE;
+}
+
+.line-2 {
+    width: 30px;
+    height: 8px;
+    background-color:  #01C8FF;
+}
+
 
 
 
