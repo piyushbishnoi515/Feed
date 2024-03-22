@@ -413,7 +413,7 @@
 }
 
 .blanck-line {
-    border: 2px solid gray;
+    border: 1px solid #CCCCCC;
     margin-bottom: 26px;
     margin-top: 23px;
 }
@@ -426,6 +426,36 @@
     width: 30px;
     height: 8px;
     background-color: #01C8FF;
+}
+
+.comment {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    border: none;
+
+}
+
+.post-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    background-color: #2C49FE;
+    cursor: pointer;
+    width: 208pxpx;
+    height: 56px;
+    border-radius: 36px;
+    border: none;
+}
+
+.outer-box {
+    width: 1251px;
+    height: 70px;
+    border-radius: 35px;
+    border: 1px solid gray;
 }
 
 
