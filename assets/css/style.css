@@ -33,6 +33,11 @@
     padding-left: 12px;
     padding-right: 12px;
 }
+.col-7{
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
 
 .col-12 {
     width: 100%;
@@ -159,6 +164,10 @@
     transition: all 0.3s linear;
 }
 
+.logo-end {
+    width: 20%;
+}
+
 .nav-links:hover::after {
     left: -50%;
     width: 100%;
@@ -178,6 +187,23 @@
     font-weight: 600;
     line-height: 24px;
 
+}
+
+.footer-pera {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.gap-15{
+    gap: 15px;
+
+}
+
+
+.bg-black {
+    background-color: #000000;
 }
 
 .position-relative {
@@ -229,11 +255,15 @@
     position: absolute;
     height: 100px;
     width: 100px;
-    bottom: 15px;
-    right: 0px;
+    bottom: 11px;
+    right: 11px;
 }
-.section-3-card{
-    
+
+.section-3-card {
+    border: 1px solid #CCCCCC;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 40px;
 }
 
 .three-line {
@@ -398,7 +428,7 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-    height: 100vh;
+    height: 145vh;
     width: 100%;
     top: 0%;
     right: -100%;
@@ -499,6 +529,7 @@
     position: fixed;
     top: 0%;
     background-color: white;
+    z-index: 10;
 
 
 }
